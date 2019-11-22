@@ -1,0 +1,15 @@
+= simple_form_for @car do |f|
+  = f.input :title
+  = f.association :marker
+  = f.association :color
+  = f.association :shape
+  = f.association :city
+  = f.input :odo
+  = f.input :year_car
+  = f.input :engine
+  = f.input :description
+  = f.collection_radio_buttons :made_in, Car.made_in.options, :last, :first, { checked: @car.made_in || Car.made_in.default_value }
+  = f.collection_radio_buttons :gear, Car.gear.options, :last, :first, {checked: @car.gear || Car.gear.default_value}
+  = f.input :price
+  - if f.object.new_record?
+    = f.button :submit
