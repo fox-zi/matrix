@@ -7,5 +7,5 @@ Spec
 Bai 3
 d.
 - Đối tượng khách hàng mà anh/chị muốn hướng đến?
-- Những loại xe/phân khúc xe mà anh/chị muốn tập trung?
-- Ngân sách của anh chị tốt đa là bao nhiêu và thời gian thực hiện trong bao lâu?
+- Quy trình quản lý, mua bán xe hiện tại?
+- Ngân sách cho dự án và thời gian thực hiện?
